@@ -1,0 +1,32 @@
+SAP Note No. 1438410
+Number              1438410
+Version             49 from 21.09.2012
+Status              Released for Customer
+Set on              28.02.2012
+
+Language            EN
+Master language     DE
+Short text          SQL: Script collection for Oracle
+
+Responsible         Martin Frauendorfer
+Component           BC-DB-ORA
+                    Oracle
+
+Solution
+An archive that contains a collection of the most important SQL
+statements is attached to this note. The parameters for these can often
+be set by adjusting the BASIS_INFO section. Due to the values -1 for
+NUMBER parameters and '%' for string parameters, the parameter is
+usually not used.
+
+Caution: Some of the scripts perform queries on Oracle views; these are
+allowed only if the Oracle Diagnostics Pack and/or the Oracle Tuning
+Pack are licensed. Therefore, you should use the scripts only if you
+have clarified your licensing situation in advance.
+
+No documentation is available. We take no responsibility for the
+correctness of the scripts and we will not provide any support for
+these.
+
+However, you can discuss more details and usage options as part of the
+SAP services described above.
